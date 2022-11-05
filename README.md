@@ -7,7 +7,8 @@ Following are my Test Scenarios on which I have done UI Testing
 2)  User is able to increase the quantity of the desired product
 3)  User is able to decrease the quantity of the desired product
 4)  User is able to click the suggested products enlisted below the desired product
+5)  User is able to click on showmore to view more products from the Category page
 
-Work Completed on 20th October
+Work Completed on 22th October
 Updated at 24th October
 Work Finalised at 5th November
