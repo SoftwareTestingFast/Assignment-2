@@ -4,7 +4,7 @@ Given(/^I open the Rijksmuseum page$/, function () {
   return browser.navigateTo('https://www.rijksmuseum.nl/en');
 });
 
-Given(/^I dismiss the cookie dialog$/, async function() {
+Given(/^I dismiss the cookie dialog$/, async function () {
   const cookieDialogVisible = await browser.isVisible({
     selector: '.cookie-consent-bar-wrap',
     suppressNotFoundErrors: true
