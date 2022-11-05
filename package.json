@@ -1,0 +1,23 @@
+{
+  "name": "practice-st",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/test1.feature "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^107.0.3",
+    "geckodriver": "^3.2.0",
+    "nightwatch": "^2.4.2"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.6.0"
+  }
+}
