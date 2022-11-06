@@ -9,7 +9,7 @@ Meeting 1: ( 20th October 2022 )
 
 Meeting 2: ( 31st October 2022 )
 1) We had a meeting with our Instructor regarding the issues related to NightWatch
-2) We finanlized to work with Cucumber + Selenium 
+2) We finanlized to work with Cucumber and Selenium 
 3) Discussed our UI Test Cases with each other and with Instructor 
 
 Meeting 3: ( 4th November 2022 )
@@ -20,4 +20,4 @@ Meeting 3: ( 4th November 2022 )
 Meeting 4: ( 6th Novemeber 2022 ) 
 1) Complete UI Test cases and final commit on GitHub
 2) Complete API Test cases and final commit on GitHub
-1) Explore the existing UI and API automation framework of your open source project
+3) Explore the existing UI and API automation framework of your open source project
