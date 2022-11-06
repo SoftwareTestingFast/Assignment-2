@@ -1,4 +1,4 @@
-# Assignment-2 (19L-1087 -> Mohsin Khalid)
+# Assignment-2 (19L-1087 Mohsin Khalid)
 
 For Task-02 that is UI Testing. I have used Selenium and Cucumber. 
 Following are my Test Scenarios on which I have done UI Testing
