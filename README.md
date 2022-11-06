@@ -1,6 +1,5 @@
-# Assignment-2
-Mohisn Khalid 
-19L-1087
+# Assignment-2 (19L-1087 -> Mohsin Khalid)
+
 For Task-02 that is UI Testing. I have used Selenium and Cucumber. 
 Following are my Test Scenarios on which I have done UI Testing
 1)  User is able to view the price of their desired product
