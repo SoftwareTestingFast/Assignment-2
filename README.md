@@ -19,3 +19,5 @@ Meeting 3: ( 4th November 2022 )
 
 Meeting 4: ( 6th Novemeber 2022 ) 
 1) Complete UI Test cases and final commit on GitHub
+2) Complete API Test cases and final commit on GitHub
+1) Explore the existing UI and API automation framework of your open source project
