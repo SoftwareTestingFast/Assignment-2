@@ -1,0 +1,20 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/test1.feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareTestingFast/Assignment-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareTestingFast/Assignment-2/issues"
+  },
+  "homepage": "https://github.com/SoftwareTestingFast/Assignment-2#readme"
+}
