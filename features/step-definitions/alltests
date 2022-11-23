@@ -30,7 +30,7 @@ Then('The color of the product will be changed accordingly', async()=> {
 });
 
 
-//test 4
+//test 2
 Given('I open React Storefront cart page',{timeout: 60 * 1000} , async() =>{
   await driver.get('http://localhost:3000/cart');
 
@@ -52,11 +52,7 @@ Then('The product will be removed from cart', async()=> {
 
 });
 
-
-
-
-
-//test 5
+//test 3
 Given('I open React Storefront desired subcategory page',{timeout: 60 * 1000} , async()=> {
   await driver.get('http://localhost:3000/s/1');
 
