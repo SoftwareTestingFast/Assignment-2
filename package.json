@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/test5.feature"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareTestingFast/Assignment-2.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,4 +21,9 @@
     "@cucumber/pretty-formatter": "^1.0.0",
     "chai": "^4.3.6"
   }
+}
+  "bugs": {
+    "url": "https://github.com/SoftwareTestingFast/Assignment-2/issues"
+  },
+  "homepage": "https://github.com/SoftwareTestingFast/Assignment-2#readme"
 }
