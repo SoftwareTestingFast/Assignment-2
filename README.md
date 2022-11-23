@@ -29,6 +29,7 @@ Meeting 4: ( 6th Novemeber 2022 )
 3) Explore the existing UI and API automation framework of your open source project
 
 #TASK-04
+In this task We will explain the approach used by ReactStore Front testers and by us and then we will made a sincere comparison between how they did testing and how we did testing
 #Testing by ReactStore Front Testers (Jest)
 React Store Front Testing: The official testing done in the Reactstore front project is on the JEST and its git repository as well as documentation clearly emphasize that the testing is done throughly and extensively on every conponent of the project. The major components are:
 1) Carousal 
@@ -86,6 +87,7 @@ Explanation: The testers have throughly tested this subcomponent.In the Carousel
 They are testing either it should render only right arrow, left arrow , both right and left arrow , append one index on clicking right arrow, subtracting an index on clicking left arrow. Hence the testers have done quite a good job by testing detailed functionalities.
 
 #Testing by us
+We have done UI as well as API testing on ReactStore Front 
 #Api Testing 
 For Api Testing we have followed the following steps
 1) Download the testing environment i-e tool which is JEST
