@@ -28,9 +28,9 @@ Meeting 4: ( 6th Novemeber 2022 )
 2) Complete API Test cases and final commit on GitHub
 3) Explore the existing UI and API automation framework of your open source project
 
-#TASK-04
+# TASK-04
 In this task We will explain the approach used by ReactStore Front testers and by us and then we will made a sincere comparison between how they did testing and how we did testing
-#Testing by ReactStore Front Testers (Jest)
+# Testing by ReactStore Front Testers (Jest)
 React Store Front Testing: The official testing done in the Reactstore front project is on the JEST and its git repository as well as documentation clearly emphasize that the testing is done throughly and extensively on every conponent of the project. The major components are:
 1) Carousal 
 2) Menu 
@@ -86,16 +86,16 @@ it('should render both left arrow and right arrow', () => {
 Explanation: The testers have throughly tested this subcomponent.In the Carousel testing file they are testing carousel arrows to exist but hidden by default. First they are creating a wrapper to mount the carousel div from 'react-storefront/carousel/Carousel'.Then they are finding carousel dots and carousel arrows to exist on the page and then on props etc.
 They are testing either it should render only right arrow, left arrow , both right and left arrow , append one index on clicking right arrow, subtracting an index on clicking left arrow. Hence the testers have done quite a good job by testing detailed functionalities.
 
-#Testing by us
+# Testing by us
 We have done UI as well as API testing on ReactStore Front 
-#Api Testing 
+# Api Testing 
 For Api Testing we have followed the following steps
 1) Download the testing environment i-e tool which is JEST
 2) Install the necessary dependencies including supertest, database, and bycrypt etc.
 3) Write the test by properly getting the api url link and also setting the api authentication
 4) Extension to get api url link on chrome are Json Viewer
 5) Run the test case on different scenarios
-#UI Testing
+# UI Testing
 For UI Testing we have followed the following steps
 1) Download the testing environment i-e tools such as Selenium and Cucumber 
 2) Install the necessary dependencies including cucumber/pretty-formatter, chai, chromedriver, geckodriver
@@ -103,5 +103,5 @@ For UI Testing we have followed the following steps
 4) Write the test case by making appropriate features in Gherkin on cucumber 
 5) Run the test case and check the negative test cases as well 
 
-#Comparison between US and ReactStore Front Testers
+# Comparison between US and ReactStore Front Testers
 ReactStore Testers have througly tested the components and also subdivide those components and check every functionality. We on the other hand only check and test the limited functionalities. They have properly followed the principles of modularization. Our code is not perfectly alligned with these principles. 
