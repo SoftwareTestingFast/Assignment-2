@@ -1,10 +1,10 @@
 {
-  "name": "assignment-2",
+  "name": "a2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter feature/test1.feature"
+    "test": "node_modules/.bin/cucumber-js -f @cucumber/pretty-formatter features/test5.feature"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
+    "selenium-webdriver": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "chai": "^4.3.6"
+  }
+}
   "bugs": {
     "url": "https://github.com/SoftwareTestingFast/Assignment-2/issues"
   },

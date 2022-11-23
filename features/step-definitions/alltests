@@ -1,0 +1,86 @@
+
+const {expect} = require('chai')
+const {When, Then, Given, Before, After} = require('@cucumber/cucumber') 
+const webdriver = require('selenium-webdriver');
+const {By} = require('selenium-webdriver');
+    
+    let driver;
+    Before(function(){
+        driver = new webdriver.Builder()
+        .forBrowser('chrome')
+        .build();
+    });
+  
+//test 1
+Given('I open React Storefront desired product page',{timeout: 60 * 1000} , async() =>{
+  await driver.get('http://localhost:3000/p/1');
+
+});
+
+When('I click <Colour> button', async()=> {
+  await driver.findElement(By.className("RSFProductOptionSelector-root-149")).click();
+});
+
+Then('The color of the product will be changed accordingly', async()=> {
+  
+  var img = await driver.findElement(By.className("makeStyles-rimSmallImage-224")).getAttribute("src");
+  console.log(img);
+});
+
+
+//test 2
+Given('I open React Storefront desired product page',{timeout: 60 * 1000} , async() =>{
+  await driver.get('http://localhost:3000/p/1');
+
+});
+
+When('I click <Colour> button', async()=> {
+  await driver.findElement(By.className("RSFProductOptionSelector-root-149")).click();
+});
+
+Then('The color of the product will be changed accordingly', async()=> {
+  
+  var img = await driver.findElement(By.className("makeStyles-rimSmallImage-224")).getAttribute("src");
+  console.log(img);
+});
+
+
+//test 3
+Given('I open React Storefront cart page',{timeout: 60 * 1000} , async() =>{
+  await driver.get('http://localhost:3000/cart');
+
+});
+
+When('I click <remove> button', async() =>{
+
+await driver.findElement(By.xpath("//*[@id="__next"]/main/div/form/div[1]/div[2]/div/div[4]/button")).click() 
+
+});
+
+Then('The product will be removed from cart', async()=> {
+
+  let text = await driver.findElement(By.className("MuiTypography-root makeStyles-name-268 MuiTypography-body1")).getText();
+
+  if(text==null)
+    console.log("product removed");
+
+
+});
+
+//test 4
+Given('I open React Storefront desired subcategory page',{timeout: 60 * 1000} , async()=> {
+  await driver.get('http://localhost:3000/s/1');
+
+});
+
+When('I click {string} type button', async() =>{
+
+  
+await driver.findElement(By.xpath("//label[text()='New']")).click() || await driver.findElement(By.xpath("//label[text()='Used']")).click()
+
+});
+Then('All the products will that {string} type will be displayed', async()=> {
+  let text = await driver.findElement(By.className("MuiGridListTile-root")).getText();
+  console.log(text);
+ 
+});
